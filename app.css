@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body
+{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+@font-face {
+    font-family: orelo;
+    src: url(/fonts/Orelo-SemiWide.ttf);
+}
+/* @font-face {
+    font-family: orelo;
+    src: url(/fonts/Classy\ Beautiful.ttf); */
+/* }f */
+/* @font-face {
+    font-family: orelo;
+    src: url(/fonts);
+} */
+.page1, 
+.page3{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(41, 40, 40);
+}
+.page1{
+    justify-content: center;align-items: center;
+    display: flex;
+}
+.page1 .hero{
+    color:lightgreen;
+    line-height: 110px;
+    font-size: 5em;
+    font-family:orelo;
+    text-align: center;
+}
+.page1 .hero h1{
+    font-weight: 400;
+}
+.hero span{
+    font-family: orelo;
+    font-size:20vw;
+    font-weight: 500;
+    color:tan;
+    letter-spacing: -18px;
+}
+.cursor-ball{
+    position: fixed;
+    /* */
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background:darkturquoise;
+    /* transform: translate(-50%,-50%); */
+    /* background: greenyellow; */
+
+    pointer-events: none;  
+    mix-blend-mode:difference;
+}
+.page2{
+    height: 120vh;
+    width: 100vw;
+    color:lightgreen ;
+    background: rgb(41, 40, 40);
+    display: flex;
+    border-bottom: 1px solid lightgreen;
+}
+.alphabets {
+    height: 100%;
+    width: 70%;
+}
+.alphabets ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.alpha-screen{
+    height: 100%;
+    width: 30%;
+    background:lightgreen;
+    color: rgb(41, 40, 40);
+    justify-content: center;align-items: center;
+    display: flex;
+}
+.alpha-screen #letterdisplay{
+    font-family: orelo;
+    /*  border-bottom-right-radius nice type*/
+    background: lightgreen;
+    justify-content: center;align-items: center;
+    display: flex;
+    font-size: 20em;
+    text-align: center;
+}
+.alphabets ul li{
+    height: 85px;
+    width: 74px;
+    justify-content: center;align-items: center;
+    display: flex;
+    font-size: 5vw;
+    border: 1px solid;
+    background: rgb(41, 40, 40);
+    font-family: orelo;
+}
+.page3,
+.pagen,
+.page4{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(41, 40, 40);
+}
+.page3 #template1 h1{
+    color: #fff;
+    font-family: orelo;
+    font-weight: 200;
+    font-size: 10vw;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+  
+/* .rotate-up {
+    height: 100px;
+    width: 100px;
+    transition: transform 0.5s ease, margin-top 0.5s ease;
+    margin-top: 0;
+} */
+
+/* page3 */
+.pagen .topgrid{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+}
+.topgrid #top1{
+    height: 100%;
+    width: 30%;
+    background:blue;
+}
+.topgrid #top2{
+    height: 100%;
+    width: 30%;
+    background:rgb(255, 0, 136);
+}
+.topgrid #top3{
+    height: 100%;
+    width: 40%;
+    background:rgb(203, 199, 4);
+}
+.middlegrid{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+}
+.middlegrid #screen{
+    height: 100%;
+    width: 70%;
+    background: burlywood;
+
+}
+.middlegrid #middle2{
+    height: 100%;
+    width: 30%;
+    background: darkolivegreen;
+}
+.bottomgrid{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+}
+.bottomgrid #bottom1{
+    height: 100%;
+    width: 40%;
+    background: gold;
+}
+.bottomgrid #bottom2{
+    height: 100%;
+    width: 30%;
+    background: rgb(1, 252, 164);
+}.bottomgrid #bottom3{
+    height: 100%;
+    width: 30%;
+    background: rgb(217, 0, 255);
+}
+#bottom3 textarea{
+    height: 100%;
+    width: 100%;
+}
+.nav
+{
+    height: 8%;
+    width: 100vw;
+    background:rgb(41, 40, 40);
+    display: flex;
+    justify-content: space-between;
+}
+.navl h5{
+    color: #D2B48C;
+    font-family: orelo;
+    font-size: 1em;
+    font-weight: 10px;
+    /* padding: 5px; */
+}
+.navl span{
+    color: lightgreen;
+}
+.navl h5{
+    font-weight: 400;
+}
+.alpha-blocks .lowalph{
+    text-transform: lowercase;
+    font-family: orelo;
+}
+/* .page3{
+    justify-content: center;
+    position: absolute;
+    display: flex;align-items: center;
+} */
